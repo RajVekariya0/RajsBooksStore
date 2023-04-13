@@ -172,7 +172,20 @@ Copied _ViewStart.cjshtml to CUSTOMER>> VIEW and Modified "    Layout = "~/Views
 Run app is wporking'
 
 Added new Area In Areas >> Named it Admin and Inside Admin deleted Data And Models folder and paster proper View Files form outside View Folder _ViewStart.cshtml and _Vire Imports.cshtml
+0330PM
 
+BUILD THE PROJECT (PART 2.1 Creat the DB)
+0340 PM
+TIME to committ on Github class ends soon..
+
+BUild Clean Rebuild in Rebuild i got 2 Successful anfd 2 up- to- date, tried to found solution form google but not got much..
+IN Appsetting.json modified DATABASE added name after database ;Database=RajsBooksStore
+
+Created the migration BY TOOLS>. NUget PACKAGE>. PACKEGE CONSOLE AND Ren the "add-migration AddDefaultIdentityMigration", ints niot worked and tried selected DATAACCESS FOLDER FOR MIGRATION
+AND ren the code to console again and it's worked                          
+                                                     Nre migration file name entry is "20230413230122_AddDefaultIdentityMigration"
+
+         0630PM
 
 
 

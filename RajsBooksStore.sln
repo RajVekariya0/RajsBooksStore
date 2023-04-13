@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RajsBooksStore", "RajsBooksStore\RajsBooksStore.csproj", "{681B47E5-DB26-4A7B-8105-545C46D2BAA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RajsBooks.DataAccess", "RajsBooks.DataAccess\RajsBooks.DataAccess.csproj", "{28EE71C3-5212-4951-8993-8925C58FE263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RajsBooks.Models", "RajsBooks.Models\RajsBooks.Models.csproj", "{B4584142-A981-4B82-8BBE-FBD1740DE2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RajsBooks.Utility", "RajsBooks.Utility\RajsBooks.Utility.csproj", "{1B098B3C-C107-4DE5-947D-D192CD3BE4BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{681B47E5-DB26-4A7B-8105-545C46D2BAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681B47E5-DB26-4A7B-8105-545C46D2BAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681B47E5-DB26-4A7B-8105-545C46D2BAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EE71C3-5212-4951-8993-8925C58FE263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EE71C3-5212-4951-8993-8925C58FE263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EE71C3-5212-4951-8993-8925C58FE263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EE71C3-5212-4951-8993-8925C58FE263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4584142-A981-4B82-8BBE-FBD1740DE2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4584142-A981-4B82-8BBE-FBD1740DE2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4584142-A981-4B82-8BBE-FBD1740DE2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4584142-A981-4B82-8BBE-FBD1740DE2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B098B3C-C107-4DE5-947D-D192CD3BE4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B098B3C-C107-4DE5-947D-D192CD3BE4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B098B3C-C107-4DE5-947D-D192CD3BE4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B098B3C-C107-4DE5-947D-D192CD3BE4BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

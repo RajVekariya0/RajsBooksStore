@@ -152,7 +152,7 @@ Added references to the DataAccess Project of Models and Utility
 ADDED REFERENCES TO >> RajsBooks.DataAccess >> for models and utility
 Added new area to area folder calld Customer   Area>> CUSTOMER
 Changed the routes in Startup.cs file like the one outlined in the ScaffoldingReadme.text.... pattern: "{area=Customer} Write in line number 66 startup.cs
-IN CONTOLLRTS >> HOMEcontrollers>  added [Area("Customer")] in line number 12 brefore punlic class
+IN CONTOLLRTS >> HOMEcontrollers>  added   in line number 12 brefore punlic class
 
 Newlty added Customer area to area folder INSIDE Customer deleted Models and Data foler AND CONTROLLER >> HOMECONTROLLER.CS copied nad pasted inside CUSTOMER>> Controller and deleted the 
 original one.
@@ -165,7 +165,13 @@ Time to do CLEAN, RE BUITD AND BUILTD
 
 Application running well time to commit on github..
 
-0250PM
+0310PM
+Copied _ViewStart.cjshtml to CUSTOMER>> VIEW and Modified "    Layout = "~/Views/Shared/_Layout.cshtml";
+Copied _ViewStart.cjshtml to CUSTOMER>> VIEW and Modified "    Layout = "~/Views/Shared/_Layout.cshtml";
+" 
+Run app is wporking'
+
+Added new Area In Areas >> Named it Admin and Inside Admin deleted Data And Models folder and paster proper View Files form outside View Folder _ViewStart.cshtml and _Vire Imports.cshtml
 
 
 

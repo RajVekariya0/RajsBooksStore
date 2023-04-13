@@ -62,7 +62,7 @@ namespace RajsBooksStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{area=customer}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

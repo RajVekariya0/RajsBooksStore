@@ -121,6 +121,54 @@ Added project reference to the main project
 Added references to the DataAccess Project of Models and Utility
 
 
+0300 PM
+Moved models folder into RajsBookStore.Models
+and develed the original once.
+CHnaged namespace in Models>> ErrorViewModels.cs 
+
+Modify Views > Shared >Error.cshtml
+added project references .DataAccess and .Models changed name of Models and made it Viewmodels. 
+
+removed using statement
+modified Startup.cs file deleted line number 10 wich was""using RajsBookStore.Data;""
+
+Clean, rebuild and build the application is runnig well..
+time to commit on git hub
+
+0338 PM
+rEMOVED ALL EROORS REVIEW APPLICATION IS WELL RUNNING
+
+0347 PM
+Added cladd Sd.cs to the Utility Project 
+
+Added project reference to the main project 
+Added references to the DataAccess Project of Models and Utility
+ -------------------------------------------------------------------------------------------------------------------
+
+
+ 2023-04-13
+ 0210 PM
+
+ADDED REFERENCES TO >> RajsBooks.DataAccess >> for models and utility
+Added new area to area folder calld Customer   Area>> CUSTOMER
+Changed the routes in Startup.cs file like the one outlined in the ScaffoldingReadme.text.... pattern: "{area=Customer} Write in line number 66 startup.cs
+IN CONTOLLRTS >> HOMEcontrollers>  added [Area("Customer")] in line number 12 brefore punlic class
+
+Newlty added Customer area to area folder INSIDE Customer deleted Models and Data foler AND CONTROLLER >> HOMECONTROLLER.CS copied nad pasted inside CUSTOMER>> Controller and deleted the 
+original one.
+
+Edited NameSpace In  View >> HomeHomeController.cs  ""namespace RajsBooksStore.Area.CustomerControllers""
+
+In VIEW > HOME moved Home to Customer>view>. PASTED AS Home.. and deleted original one
+
+Time to do CLEAN, RE BUITD AND BUILTD
+
+Application running well time to commit on github..
+
+0250PM
+
+
+
 
 
 

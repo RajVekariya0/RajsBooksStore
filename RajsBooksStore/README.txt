@@ -187,6 +187,25 @@ AND ren the code to console again and it's worked
 
          0630PM
 
+Updated database from PM console, Reviewed updated database in SQL Server Object Explore. VIEW>SQL>SERVER Explore, checked database was there.
+RUn the Application All is working 
+Ciommited On GITHUB As well.. 
+
+0720PM
+Added new class called Category to the ViewModels>> CATEGORY and writed code which is provided      AND ADDED MIGRATION to the RAJSBOOKS.MODELS via PM console, the new migration was empty "20230413232532_AddCategoryToDb.cs"
+IN DATAACCESS >. DATA added "        public DbSet<Category> Categories { get; set; } " TO ApplicationDbContext.cs file
+
+RERUN THIS MIGRATION IN  PM console
+Migration vis PM IS " add-migration AddCategoryToDb"
+Showing the dublication cause i had already done the migration 
+for thath in PM console >> Remove-migration and than again need to do " add-migration AddCategoryToDb" so that is resolve the error that was occuring
+
+             0738PM
+              2023-04-13
+
+Clean, Build, Rebuild application is running well.. 
+time to commit on github..
+
 
 
 

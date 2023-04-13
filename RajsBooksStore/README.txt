@@ -78,7 +78,7 @@ Copied "DATA" folder from the original space and pasted on the new created proje
 
 02.32 PM
 
-INSTALLED Microsoft.EntityFramework Core.Relational and Core.SqlServer packages
+ModifED the namespace to ApplicationDbContext.cs
 FROM tools >> Nuget Package manager >> manage nugat package for solution >> search for Core.relational and Core.Sqlserver >> selected the proper install version 3.1.32 and installed it.
 
 Deleted the migrations folder

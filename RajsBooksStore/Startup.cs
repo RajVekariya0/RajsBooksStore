@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RajsBooks.DataAccess.Repository;
 using RajsBooksStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,7 @@ namespace RajsBooksStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -66,6 +68,10 @@ namespace RajsBooksStore
                 endpoints.MapRazorPages();
             });
         }
+    }
+
+    internal interface IUnitOfWork
+    {
     }
 }
 

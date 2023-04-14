@@ -200,11 +200,20 @@ Migration vis PM IS " add-migration AddCategoryToDb"
 Showing the dublication cause i had already done the migration 
 for thath in PM console >> Remove-migration and than again need to do " add-migration AddCategoryToDb" so that is resolve the error that was occuring
 
-             0738PM
-              2023-04-13
-
+             
 Clean, Build, Rebuild application is running well.. 
 time to commit on github..
+
+            0738PM
+              2023-04-13
+              BUILD THE PROJECT (PART 2.2 Repository)
+
+  ADDED NEW folder called "REPOSITORY" IN SIDE  RajsBooks.Dataaccess, inside REPOSITORY created IRepository folder..for the interface
+  .. added new class item to IRepository named it IRepository.cs,
+  write code as provided saved it.., IN THAT FILE MODIFUIED.. list of categories, Add objects and removed objects..
+
+  0755PM
+
 
 
 

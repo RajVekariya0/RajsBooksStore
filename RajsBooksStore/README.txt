@@ -213,6 +213,19 @@ time to commit on github..
   write code as provided saved it.., IN THAT FILE MODIFUIED.. list of categories, Add objects and removed objects..
 
   0755PM
+  Implimented the class repository and created new class clalled REPOSITORY.CS AND added to Repository folder..
+  Modified thwe code tand construcors and dependency injevction (DI)
+  fROM ASSIGNMENT 2 PROVIDED FILES IN CONTENT WRITED THE REPOSITORY.CS FILE 
+
+       0830 PM
+Created individual repos for Repository 1. CotegoryRepository.cs and ICategoryRepository.cs
+modified categoryRepository ad provided  , Modified IcategoryRepository.
+Build, Rebuild app runing well.
+
+Time to commit on github.
+         0855PM
+
+
 
 
 

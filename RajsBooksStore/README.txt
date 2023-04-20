@@ -266,7 +266,19 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
          Created Category.js inside WWWRoots>> JS,, and pasted code thet provided in assignment 2 folder..
          In Index.cshtml added the @Section call to the category.js "@section Scripts{
                                                                                         <script src="~/js/category.js"></script> }"
-                                                                                                                                               
+
+             0647PM
+    Created new category using Upsert ACtion, Added IAction result to the controller and added View Razor component ot the view>Category ("Upsert.cshtml") 
+    pasted code from the provided folder.....
+
+    Created partial view for the EDIT - BACK  INSIDE GENERAL VIEW >> SHARED >> "_CreateAndBackToListButton"
+                                 and written code ass shown added asp action..
+
+    Created another partial View Called _EditAndBackToList.cshtml and writed code as @model razor statement (AS CODE ADDITION)
+
+    Modified Upsert.cshtml with the @model statement  >>> and asp-action to the Index.cshtml  for navigation to category to create new category 
+    Modified Upsert.cshtml to the @title variable and @section call to the script to validate input on the clint side.
+                                 
 
 
 

@@ -250,6 +250,10 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
  Added Razor View Index to the newly created Ctegory folder inside the View.
  In Index.cshtml added View.text code provided in assignment 2 folder.
 
+            0606PM 
+    Finally got the room empty and working again on rest work....
+    Clean build rebuild everything is working 
+
 
 
 

@@ -263,6 +263,11 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
     Time to commit on github..
          0621 PM
 
+         Created Category.js inside WWWRoots>> JS,, and pasted code thet provided in assignment 2 folder..
+         In Index.cshtml added the @Section call to the category.js "@section Scripts{
+                                                                                        <script src="~/js/category.js"></script> }"
+                                                                                                                                               
+
 
 
 

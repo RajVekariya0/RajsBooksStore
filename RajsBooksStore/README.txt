@@ -254,7 +254,14 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
     Finally got the room empty and working again on rest work....
     Clean build rebuild everything is working 
 
+    made mistake i had created new razor view inside the Acutal Viewe but i need to creat it indie ADMIN>> VIEWS>> CATEGORY SO I HAVE DONE IT AGAIN AND REPLACE THE OLD CODE.
 
+    Layout.chhtml in line number 26 i had put "                            <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a> "
+    and in line number 33 "                                <a class="dropdown-item" asp-area="Admin"  asp-controller="Category" asp-action="Index" >Category</a> "
+
+    Reviewed the changes to the nevigation now i can see "Category" in my dropdown..
+    Time to commit on github..
+         0621 PM
 
 
 

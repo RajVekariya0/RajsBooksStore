@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RajsBooks.DataAccess.Repository;
+using RajsBooks.DataAccess.Repository.IRepository;
 using RajsBooksStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -70,9 +71,6 @@ namespace RajsBooksStore
         }
     }
 
-    internal interface IUnitOfWork
-    {
-    }
 }
 
 

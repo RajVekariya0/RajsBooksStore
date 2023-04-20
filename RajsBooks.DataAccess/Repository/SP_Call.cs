@@ -14,17 +14,12 @@ namespace RajsBooks.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;
         private static string ConnectionString = "";
-        private AppcationDbContext db;
+        private ApplicationDbContext db;
 
         public SP_Call(ApplicationDbContext db)
         {
             _db = db;
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
-        }
-
-        public SP_Call(AppcationDbContext db)
-        {
-            this.db = db;
         }
 
         public void Dispose()

@@ -5,24 +5,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+
 
 namespace RajsBooks.DataAccess.Repository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
-        private AppcationDbContext db;
+    
 
         private readonly ApplicationDbContext _db;
+        private ApplicationDbContext db;
 
         public CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
-        public CategoryRepository(AppcationDbContext db)
-        {
-            this.db = db;
-        }
+        
 
         public void Update(Category category)
         {

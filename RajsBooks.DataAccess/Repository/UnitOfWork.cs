@@ -1,16 +1,15 @@
-﻿using RajsBooks.DataAccess.Repository.IRepository;
+﻿
+
+using RajsBooks.DataAccess.Repository.IRepository;
 using RajsBooksStore.DataAccess.Data;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RajsBooks.DataAccess.Repository
 {
-   public class UnitOfWork
+   public class UnitOfWork : IUnitOfWork 
     {
-        private readonly AppcationDbContext _db;
+        private readonly ApplicationDbContext _db;
 
-        public UnitOfWork(AppcationDbContext db)
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);

@@ -225,11 +225,27 @@ Build, Rebuild app runing well.
 Time to commit on github.
          0855PM
 
+         -------------------------------------------------------------------------------------------------
+            2023-04-22
+            0206PM
+
+            build the project (CATEGORY CRUD)
+
+            Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0006	Metadata file 'C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooks.DataAccess\bin\Debug\netcoreapp3.1\RajsBooks.DataAccess.dll' could not be found	RajsBooksStore	C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooksStore\CSC	1	Active
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS1503	Argument 1: cannot convert from 'RajsBooks.DataAccess.Repository.AppcationDbContext' to 'RajsBooksStore.DataAccess.Data.ApplicationDbContext'	RajsBooks.DataAccess	C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooks.DataAccess\Repository\UnitOfWork.cs	16	Active
 
 
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooks.DataAccess\bin\Debug\netcoreapp3.1\RajsBooks.DataAccess.dll could not be found. This is typically caused by build errors in referenced projects.	RajsBooksStore	C:\Program Files\dotnet\sdk\5.0.411\Sdks\Microsoft.NET.Sdk.Razor\build\netstandard2.0\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets	54	
 
 
+           (ERRRORS  --- i HAD CREATED 2 ApplicationDbContext file and deleted one of them plus had done spelling mistakes in UnitOfWork or DBContext  )
+           Have solve the errors and continue working over..
 
+           0335PM
 
 
 

@@ -278,6 +278,17 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
 
     Modified Upsert.cshtml with the @model statement  >>> and asp-action to the Index.cshtml  for navigation to category to create new category 
     Modified Upsert.cshtml to the @title variable and @section call to the script to validate input on the clint side.
+
+                    Comit on Github...
+                      0712PM
+
+    Removed "_db.SaveChanges();" from CategoryRepository.cs and added " return RedirectToAction(nameof(Index)); "  MATHORD
+
+    Gattying error on IUnitOfWork.cs 
+    
+    "Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	RajsBooks.DataAccess	C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooks.DataAccess\Repository\IRepository\IUnitOfWork.cs	17	Active
+"
                                  
 
 

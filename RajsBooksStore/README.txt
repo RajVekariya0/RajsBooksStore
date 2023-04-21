@@ -340,6 +340,13 @@ Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	Raj
                     0948PM 
                     Commiting On GITHUB..
 
+    Added product to the repository and named it ProductRepository.cs and IProductRepositpry.cs to Irepositorty.
+    Added namespace and code to the newly created product files.
+
+    Leaving class now need to work night 
+    1001 PM
+    --------------------------------------------------
+
 
 
 

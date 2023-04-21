@@ -300,6 +300,7 @@ Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	Raj
             Time to comit on github
             0814PM
 
+            ------------------------------------------------------------------------------------
             BUILD THE PROJECT PART 3.1 (COVER TYPE CRUD)
 
             Added CoverType.cs in the Model's Folder writtemn the code 
@@ -320,8 +321,26 @@ Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	Raj
             application is runnin=g well..
             Clean build rebuild .
                  
-                   0926pM
+                   0926PM
                    TIME to comit on GITHUB ))--
+
+      ------------------------------------------------------------------------------------------------------
+                Build the project (3.2) >> Product CRUD
+                0935PM
+
+      Added new class to the RajsBooks.Models folder Named it Product.cs
+      written code as provided
+      added references for newly created Product.cs file in the ApplicationDbContex.cs file.
+      IN the PM CONSOLE done the migration by                                             "add-migration addProductToDb"  and 
+                                                                                            "Update-Database"
+                                                                                            
+                                                                                            "20230421014355_addProductToDb.Designer.cs"
+                                                        Timestamp of new Migration file.
+
+                    0948PM 
+                    Commiting On GITHUB..
+
+
 
 
 

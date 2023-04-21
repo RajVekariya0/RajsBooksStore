@@ -300,6 +300,28 @@ Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	Raj
             Time to comit on github
             0814PM
 
+            BUILD THE PROJECT PART 3.1 (COVER TYPE CRUD)
+
+            Added CoverType.cs in the Model's Folder writtemn the code 
+            Added CoverType to the Repository aND Named it CoverTypeRepositpory.cs and ICoverTypeRepository as well...
+            added references toi the UnitOfWork and IUnitOfWork
+
+            Done Migratition from the Package Manager Console and run this code "add-migration AddCoverTypeToDb"
+            migration done successfuylly and the "Updated" it.
+
+            0849PM
+
+            Added coverType to the NAVbar in _Layout.cshtml
+            Added CoverType Controller to the Controller and nameed it CoverTypeController.cs and done all required actiion mathord pasted code from the other controller and editied with CoverType...
+            Added Index.cshtml to the Admin>View>cOVERtYPE FOLDER AND ADDED CODE ON IT.
+
+            Created Upsert.cshtml to the CoverType folder and pasted code as required..
+            Getting error of name space so i tried to put Category at the end and its worked..
+            application is runnin=g well..
+            Clean build rebuild .
+                 
+                   0926pM
+                   TIME to comit on GITHUB ))--
 
 
 

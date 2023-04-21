@@ -10,9 +10,8 @@ namespace RajsBooks.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
+        ICoverTypeRepository CoverType { get; }
         ISP_Call SP_Call { get; }
-        object Save { get; }
-        object save { get; }
 
         void Save(); 
       

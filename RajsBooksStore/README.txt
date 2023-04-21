@@ -289,7 +289,17 @@ Warning	RAZORSDK1007	Reference assembly C:\Users\W0802730\Source\Repos\RajVekari
     "Severity	Code	Description	Project	File	Line	Suppression State
 Error	CS0102	The type 'IUnitOfWork' already contains a definition for 'Save'	RajsBooks.DataAccess	C:\Users\W0802730\Source\Repos\RajVekariya0\RajsBooksStore\RajsBooks.DataAccess\Repository\IRepository\IUnitOfWork.cs	17	Active
 "
-                                 
+            Commited on GITHUB 
+            0808PM
+
+            Added the API (aPPLICATIONPROGRAMMING  INTERFACE ) CALL for HTTPDelete in the CategoryController.cs
+            Implimented HTTPDelete matghord to the Categort.js and added function to the app API
+            ADDED delete functionality with onclick event.
+            Added the delete function code to the category.js file, Which was Uses Sweet Alert for error message, uses Toastr for notification.
+
+            Time to comit on github
+            0814PM
+
 
 
 
